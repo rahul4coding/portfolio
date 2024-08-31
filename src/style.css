@@ -278,6 +278,7 @@ button:focus {
 .heading-name {
   font-size: 2.5em !important;
   padding-left: 45px !important;
+  color: whitesmoke;
 }
 
 .main-name {
@@ -312,8 +313,8 @@ button:focus {
 
 @media (max-width: 767px) {
   .myAvtar {
-    padding-top: 2em !important;
-    padding-bottom: 2em !important;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
   }
 }
 
@@ -326,6 +327,7 @@ button:focus {
 .home-about-description {
   color: white !important;
   padding-top: 100px !important;
+  padding-right: 30px;
   padding-bottom: 20px !important;
   text-align: center;
 }
@@ -338,16 +340,65 @@ button:focus {
 
 .home-about-social {
   text-align: center !important;
-  padding-top: 25px;
+  padding-top: 30px;
   color: white !important;
 }
+
+.home-about-social h1 {
+  font-size: 2.2em;
+  margin-bottom: 20px;
+}
+
+.home-about-social p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.home-profile-image {
+  
+  width: 100%;
+  
+  height: 100%; /* Adjust the size as needed */
+  border-radius: 50%; /* Makes the image circular */
+  overflow: hidden; /* Ensures the image stays within the circular boundary */
+  border: 3px solid #be6adf !important; /* Stylish border with a color that pops */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition effects */
+}
+
+.home-profile-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the entire area */
+}
+
+.home-profile-image:hover {
+  transform: scale(1.05); /* Slightly enlarges the image on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhances the shadow on hover */
+}
+
+@media (max-width: 768px) {
+  .home-about-description {
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .myAvtar {
+    margin-top: 20px;
+  }
+}
+
 
 .home-about-social-links {
   justify-content: center !important;
   padding-top: 15px !important;
-  display: inline-block !important;
+  
   position: relative !important;
   padding-inline-start: 0 !important;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
 }
 
 .home-social-icons {
@@ -396,6 +447,12 @@ button:focus {
 
 .icon-colour {
   color: #700c86 !important;
+  font-size: 2em;
+  transition: color 0.3s ease;
+}
+
+.icon-colour:hover {
+  color: #700c86;
 }
 
 /* --------- */
@@ -425,6 +482,8 @@ button:focus {
     text-align: center !important;
   }
 }
+
+
 
 .footer h3 {
   font-size: 1em;
