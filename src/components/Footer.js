@@ -7,11 +7,63 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
+
 function Footer() {
   let date = new Date();
   let year = date.getFullYear();
   return (
     <Container fluid className="footer">
+       <Row>
+          <Col md={12} className="home-about-social" >
+          <h1 style={{color:"whitesmoke"}}>Let's Connect!</h1>
+<p>
+  Feel free to <span className="purple">reach out</span> and connect with me.
+</p>
+<ul className="home-about-social-links">
+  <li className="social-icons">
+    <a
+      href="https://github.com/rahul4coding"
+      target="_blank"
+      rel="noreferrer"
+      className="icon-colour home-social-icons"
+    >
+      <AiFillGithub />
+    </a>
+  </li>
+  <li className="social-icons">
+    <a
+      href="https://twitter.com/rahuuulbhatija"
+      target="_blank"
+      rel="noreferrer"
+      className="icon-colour home-social-icons"
+    >
+      <AiOutlineTwitter />
+    </a>
+  </li>
+  <li className="social-icons">
+    <a
+      href="https://www.linkedin.com/in/rahul-bhatija/"
+      target="_blank"
+      rel="noreferrer"
+      className="icon-colour home-social-icons"
+    >
+      <FaLinkedinIn />
+    </a>
+  </li>
+  <li className="social-icons">
+    <a
+      href="https://www.instagram.com/rahul.bhatija"
+      target="_blank"
+      rel="noreferrer"
+      className="icon-colour home-social-icons"
+    >
+      <AiFillInstagram />
+    </a>
+  </li>
+</ul>
+
+          </Col>
+        </Row>
       <Row>
         <Col md="4" className="footer-copywright">
           
