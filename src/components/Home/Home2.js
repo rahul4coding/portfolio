@@ -15,17 +15,12 @@ function Home2() {
             </h1>
             <p className="home-about-body">
   <br />
-  <br />Rahul Bhatija is a skilled Software Engineer with 2.5 years of experience, specializing in the
+  <br />Rahul Bhatija is a skilled Software Engineer,  experienced in the
   <i>
-    <b className="purple"> MEAN/MERN stack. </b>
+    <b className="purple"> MEAN/MERN stack & AWS</b>
   </i>
   <br />
-  <br />
-  Currently based in India, Rahul is transitioning into 
-  <i>
-    <b className="purple"> Cloud Engineer/Architect role. </b>
-  </i>
-  <br />
+  
   <br />
   With hands-on experience in building, deploying and managing web applications using AWS services like
   <i>
