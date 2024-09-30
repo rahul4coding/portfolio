@@ -24,9 +24,9 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
-              isBlog={true}
+              isBlog={false}
               title="InfoCrown Technologies"
-              description="Designed and developed InfoCrown's website, enhancing user experience and showcasing IT services. Implemented responsive design, seamless navigation, and impactful visuals, resulting in a professional online presence that effectively communicates the company's expertise and services"
+              description="Designed and developed InfoCrown's website, enhancing user experience and showcasing IT services. Implemented responsive design, seamless navigation, and impactful visuals, resulting in a professional online presence that effectively communicates the company's expertise and services."
               // ghLink="https://github.com/soumyajit4419/Chatify"
               demoLink="https://infocrown.co"
             />
@@ -37,8 +37,8 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="Portfolio Site"
-              description="Built with cutting-edge technologies, my personal website showcases my expertise in React.js, JavaScript, and CSS. Leveraging modern web development best practices, my website demonstrates my passion for innovative and effective digital solutions."
-              ghLink="https://github.com/rahul4coding/portfolio/"
+              description="Built with latest technologies, my personal website showcases my expertise in React.js, JavaScript, and CSS. Leveraging modern web development best practices, my website demonstrates my passion for innovative and effective digital solutions. I invite you to explore this site & share feedback." 
+              // ghLink="https://github.com/rahul4coding/portfolio/"
               demoLink="https://rahulbhatija.com/"
             />
           </Col>
@@ -46,7 +46,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
-              isBlog={true}
+              isBlog={false}
               title="React Editor"
               description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
               // ghLink="https://github.com/rahul4coding/React-Editor"
