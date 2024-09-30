@@ -27,7 +27,7 @@ function Projects() {
               isBlog={false}
               title="InfoCrown Technologies"
               description="Designed and developed InfoCrown's website, enhancing user experience and showcasing IT services. Implemented responsive design, seamless navigation, and impactful visuals, resulting in a professional online presence that effectively communicates the company's expertise and services."
-              // ghLink="https://github.com/soumyajit4419/Chatify"
+              // ghLink=""
               demoLink="https://infocrown.co"
             />
           </Col>
@@ -38,7 +38,7 @@ function Projects() {
               isBlog={false}
               title="Portfolio Site"
               description="Built with latest technologies, my personal website showcases my expertise in React.js, JavaScript, and CSS. Leveraging modern web development best practices, my website demonstrates my passion for innovative and effective digital solutions. I invite you to explore this site & share feedback." 
-              // ghLink="https://github.com/rahul4coding/portfolio/"
+              // ghLink=""
               demoLink="https://rahulbhatija.com/"
             />
           </Col>
